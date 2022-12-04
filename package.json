@@ -1,0 +1,33 @@
+{
+  "name": "t34",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node ./commandActions/deploy-commands.js",
+    "delete": "node ./commandActions/delete-commands.js",
+    "register": "node ./commandActions/guild-register.js",
+    "register-global": "node ./commandActions/global-register.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "bufferutil": "^4.0.7",
+    "del": "^7.0.0",
+    "discord.js": "^14.6.0",
+    "erlpack": "github:discord/erlpack",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "qrcode": "^1.5.1",
+    "random-number": "^0.0.9",
+    "utf-8-validate": "^5.0.10",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
